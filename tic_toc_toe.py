@@ -46,8 +46,8 @@ def rule():
         show_winner(results[2])
     elif(results[0]==results[4]==results[8] and results[0]!=0):
         show_winner(results[0])
-    elif(results[3]==results[4]==results[6] and results[3]!=0):
-        show_winner(results[3])
+    elif(results[2]==results[4]==results[6] and results[2]!=0):
+        show_winner(results[2])
     else:
         check_draw()
         #print(f"player {results[0]} win!")
